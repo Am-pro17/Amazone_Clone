@@ -146,7 +146,7 @@ label:hover{
 }
 
 .Head_container>div,.Head_container>a{
-    border: 1px solid rgb(4, 4, 4);
+    border: 1px solid #131921;
     border-radius: 5px;
 }
 
@@ -201,7 +201,7 @@ label:hover{
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1500px){
     .Head_container> :not(.Head_container__logo_wrapper,.Head_container__search){
         display: none;
 
