@@ -1,0 +1,34 @@
+.black{
+    color: rgb(171, 53, 53);
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -10%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.category{
+    width: 350px;
+    height: 350px;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.category h2{
+    margin-bottom: 20px;
+    color: black;
+}
+
+.category img {
+    height: 280px;
+    margin: 0 50px;
+}
+
+.category div{
+    color: blue;
+}

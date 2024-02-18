@@ -14,7 +14,7 @@ function CarouselPart() {
         showThumbs={false}
         >
 {
-    images.map((image)=> (<img src={image}/>))
+    images.map((image,i)=> (<img key={i} src={image}/>))
 }
 
         </Carousel>

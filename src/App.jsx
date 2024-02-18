@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Head from './Components/Head/Head'
 import CarouselPart from './Components/CarouselPart/CarouselPart'
+import Category from './Components/Category/Category'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
 <Head/>
 <CarouselPart/>
+<Category/>
     </>
   )
 }
