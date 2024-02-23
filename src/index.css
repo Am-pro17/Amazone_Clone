@@ -2,3 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+--yellow-color:rgb(229, 200, 58);
+--yellow-shade:rgb(255,164,28);
+}

@@ -6,7 +6,6 @@ import Data from './Data/Data'
 
 function Category() {
 
-    console.log(Data[1].title);
   return (
     <>
     <div className={classes.categories}>
